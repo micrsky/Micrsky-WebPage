@@ -1,0 +1,19 @@
+.alpha-0{
+    opacity: 0;
+}
+.bg-properties{
+    background: url('https://api.bwmc.live/api/') center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+}
+.gray-text{
+    color: #6c757d !important;
+}
+.bg-customize{
+    background-color: white;
+}
+.blur{
+    backdrop-filter: blur(2px);
+    --webkit-backdrop-filter: blur(2px);
+}
