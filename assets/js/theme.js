@@ -1,9 +1,15 @@
 "use strict";
-
+var timerStart = Date.now();
+var timespend = timerStart - Date.now();
+if(timespend >3){
+    $('#preload').attr('class', 'loaded');
+}
 $(window).on("load", function() {
 
 }), 
-
+window.addEventListener("load",function(){
+    $('#preload').attr('class', 'loaded');
+})
 $(window).on('load resize', function() {
     
     // Background image holder - Static hero with fullscreen autosize
