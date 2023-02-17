@@ -1,7 +1,7 @@
 "use strict";
 var timerStart = Date.now();
 var timespend = timerStart - Date.now();
-if(timespend >3){
+if(timespend >= 3){
     $('#preload').attr('class', 'loaded');
 }
 $(window).on("load", function() {
